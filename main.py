@@ -15,5 +15,7 @@ kfactorial = math.factorial(k)
 roznicafactorial = math.factorial(roznica)
 iloraz = kfactorial * roznicafactorial
 
+def newton(pierwsza, druga):
+   return pierwsza / druga
 
-print(nfactorial/iloraz)
+print(newton(nfactorial, iloraz))
